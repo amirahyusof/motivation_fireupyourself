@@ -1,0 +1,23 @@
+* {
+  margin: auto;
+}
+
+body {
+  margin-top: 10vh;
+  background-color: black;
+}
+
+.square-section {
+  width: 350px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
