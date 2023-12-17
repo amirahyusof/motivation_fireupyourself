@@ -33,14 +33,17 @@ body {
 .motiv-part {
   color: white;
   font-size: 24px;
-  padding: 80px;
+  margin-top: 50px;
+  padding: 25px;
   text-align: center;
 }
 
 button {
-  font-size: 16px;
-  width: 200px;
+  width: 150px;
   height: 35px;
+  margin-top: 70px;
+  position: static;
+  font-size: 16px;
   background-color: black;
   color: beige;
 }
