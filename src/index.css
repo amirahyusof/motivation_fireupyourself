@@ -32,7 +32,7 @@ body {
 
 .motiv-part {
   color: white;
-  font-size: 24px;
+  font-size: 22px;
   margin-top: 50px;
   padding: 25px;
   text-align: center;
@@ -41,9 +41,14 @@ body {
 button {
   width: 150px;
   height: 35px;
-  margin-top: 70px;
-  position: static;
+  margin-bottom: -150%;
+  position: absolute;
   font-size: 16px;
   background-color: black;
   color: beige;
+}
+
+button:hover {
+  background-color: rgb(255, 0, 0);
+  cursor: pointer;
 }
