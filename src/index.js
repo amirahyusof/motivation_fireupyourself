@@ -2,13 +2,38 @@ import React from 'react';
 import ReactDOM  from 'react-dom';
 import './index.css';
 import App from './components/App';
+import Data from './components/motivData'
 import reportWebVitals from './reportWebVitals';
 
 const display = document.getElementById('root');
 
 function Main(){
+  const [content, setContent] = React.useState(Data)
+
+
+  const [backgroundColor, setBackgroundColor] = React.useState('white')
+
+  function handleChangeColor(){
+    const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`
+    setBackgroundColor(randomColor)
+  }
+
+  function getContent(){
+    const contentArray = content.content
+    const randomNumber = Math.floor(Math.random() * contentArray.length);
+    const number = contentArray[randomNumber]
+
+    setContent( prevContent => ({
+      ...prevContent, 
+      Content: number
+    }))
+  }
+
+
   return(
-    <App />
+    <App 
+    motiv = {content.content} 
+    handleClick={handleChangeColor}/>
   )
 }
 
