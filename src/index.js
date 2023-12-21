@@ -8,32 +8,33 @@ import reportWebVitals from './reportWebVitals';
 const display = document.getElementById('root');
 
 function Main(){
-  const [content, setContent] = React.useState(Data)
+  const [motivation, setMotivation] = React.useState({
+    content :"Be the change that you wish to see in the world.",
+    color :"#778899"
+  })
 
+  const [allMotivation, setAllMotivation] = React.useState(Data)
 
-  const [backgroundColor, setBackgroundColor] = React.useState('white')
-
-  function handleChangeColor(){
-    const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`
-    setBackgroundColor(randomColor)
-  }
 
   function getContent(){
-    const contentArray = content.content
-    const randomNumber = Math.floor(Math.random() * contentArray.length);
-    const number = contentArray[randomNumber]
+    const motivationArray = allMotivation
+    const randomNumber = Math.floor(Math.random() * motivationArray.length);
+    const number = motivationArray[randomNumber].content
+    const backgroundColor = motivationArray[randomNumber].color
 
-    setContent( prevContent => ({
-      ...prevContent, 
-      Content: number
+    setMotivation( prevMotivation => ({
+      ...prevMotivation, 
+      content: number,
+      color: backgroundColor
     }))
   }
 
 
   return(
     <App 
-    motiv = {content.content} 
-    handleClick={handleChangeColor}/>
+    currentMotivation = {motivation.content}
+    curentColor = {motivation.color}
+    handleClick={getContent} />
   )
 }
 
