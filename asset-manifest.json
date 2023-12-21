@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/motivation_fireupyourself/static/css/main.ae0fe49f.css",
+    "main.js": "/motivation_fireupyourself/static/js/main.cb181d1e.js",
+    "static/js/787.c5f7c909.chunk.js": "/motivation_fireupyourself/static/js/787.c5f7c909.chunk.js",
+    "index.html": "/motivation_fireupyourself/index.html",
+    "main.ae0fe49f.css.map": "/motivation_fireupyourself/static/css/main.ae0fe49f.css.map",
+    "main.cb181d1e.js.map": "/motivation_fireupyourself/static/js/main.cb181d1e.js.map",
+    "787.c5f7c909.chunk.js.map": "/motivation_fireupyourself/static/js/787.c5f7c909.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae0fe49f.css",
+    "static/js/main.cb181d1e.js"
+  ]
+}
