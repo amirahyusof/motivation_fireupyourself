@@ -37,7 +37,7 @@ export default [
     {
         "id": 8, 
         "content": "Striking a balance between career ambitions and personal life sustains mental well-being and enriches relationships.",
-        "color": "#CCCCFF"
+        "color": "#40A2D8"
     }, 
     {
         "id": 9, 
@@ -82,7 +82,7 @@ export default [
     {
         "id": 17, 
         "content": "In a world where you could say anything, be kind.",
-        "color":"#FFFF00"
+        "color":"#9F70FD"
     }, 
     {
         "id": 18, 
@@ -132,7 +132,7 @@ export default [
     {
         "id": 27, 
         "content": "The only limit to our realization of tomorrow will be our doubts of today.",
-        "color":"#D8BFD8"
+        "color":"#561C24"
     },
     {
         "id": 28, 
@@ -192,7 +192,7 @@ export default [
     {
         "id":39,
         "content":"You must expect great things of yourself before you can do them.",
-        "color":"#FFE4E1"
+        "color":"#50623A"
     },
     {
         
